@@ -1,0 +1,261 @@
+{
+  "collections": [
+    {
+      "id": "hero-1",
+      "title": "Featured",
+      "template": "hero_carousel",
+      "items": [
+        {
+          "id": "item-1",
+          "title": "Stranger Things",
+          "description": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.",
+          "imageUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "4 Seasons",
+          "rating": 8.7,
+          "year": 2016,
+          "genres": ["Sci-Fi", "Horror", "Drama"]
+        },
+        {
+          "id": "item-2",
+          "title": "The Crown",
+          "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+          "imageUrl": "https://images.unsplash.com/photo-1574267432644-f610f6b8f6d8?w=800&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1574267432644-f610f6b8f6d8?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "6 Seasons",
+          "rating": 8.6,
+          "year": 2016,
+          "genres": ["Drama", "Historical"]
+        },
+        {
+          "id": "item-3",
+          "title": "Dune",
+          "description": "Feature adaptation of Frank Herbert's science fiction novel about the son of a noble family entrusted with the protection of the most valuable asset.",
+          "imageUrl": "https://images.unsplash.com/photo-1518331368925-fd8d678778e0?w=800&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1518331368925-fd8d678778e0?w=300&h=450&fit=crop",
+          "type": "movie",
+          "duration": "2h 35m",
+          "rating": 8.0,
+          "year": 2021,
+          "genres": ["Sci-Fi", "Adventure"]
+        }
+      ]
+    },
+    {
+      "id": "trending-1",
+      "title": "Trending Now",
+      "template": "horizontal_list",
+      "items": [
+        {
+          "id": "item-4",
+          "title": "Breaking Bad",
+          "description": "A high school chemistry teacher turned meth producer.",
+          "imageUrl": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1574267432553-4b4628081c31?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "5 Seasons",
+          "rating": 9.5,
+          "year": 2008,
+          "genres": ["Crime", "Drama", "Thriller"]
+        },
+        {
+          "id": "item-5",
+          "title": "Inception",
+          "description": "A thief who enters the dreams of others to steal secrets.",
+          "imageUrl": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=300&h=450&fit=crop",
+          "type": "movie",
+          "duration": "2h 28m",
+          "rating": 8.8,
+          "year": 2010,
+          "genres": ["Action", "Sci-Fi", "Thriller"]
+        },
+        {
+          "id": "item-6",
+          "title": "Dark",
+          "description": "A family saga with a supernatural twist.",
+          "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "3 Seasons",
+          "rating": 8.8,
+          "year": 2017,
+          "genres": ["Crime", "Drama", "Mystery"]
+        },
+        {
+          "id": "item-7",
+          "title": "The Matrix",
+          "description": "A computer hacker learns about the true nature of reality.",
+          "imageUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=300&h=450&fit=crop",
+          "type": "movie",
+          "duration": "2h 16m",
+          "rating": 8.7,
+          "year": 1999,
+          "genres": ["Action", "Sci-Fi"]
+        },
+        {
+          "id": "item-8",
+          "title": "Money Heist",
+          "description": "An unusual group of robbers attempt to carry out the most perfect robbery.",
+          "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "5 Seasons",
+          "rating": 8.3,
+          "year": 2017,
+          "genres": ["Action", "Crime", "Drama"]
+        }
+      ]
+    },
+    {
+      "id": "featured-banner-1",
+      "title": "Editor's Pick",
+      "template": "featured_banner",
+      "items": [
+        {
+          "id": "item-9",
+          "title": "The Witcher",
+          "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+          "imageUrl": "https://images.unsplash.com/photo-1579566346927-c68383817a25?w=800&h=400&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1579566346927-c68383817a25?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "3 Seasons",
+          "rating": 8.2,
+          "year": 2019,
+          "genres": ["Action", "Adventure", "Drama"]
+        }
+      ]
+    },
+    {
+      "id": "action-1",
+      "title": "Action & Adventure",
+      "template": "horizontal_list",
+      "items": [
+        {
+          "id": "item-10",
+          "title": "John Wick",
+          "description": "An ex-hitman comes out of retirement.",
+          "imageUrl": "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?w=300&h=450&fit=crop",
+          "type": "movie",
+          "duration": "1h 41m",
+          "rating": 7.4,
+          "year": 2014,
+          "genres": ["Action", "Crime", "Thriller"]
+        },
+        {
+          "id": "item-11",
+          "title": "Mad Max: Fury Road",
+          "description": "In a post-apocalyptic wasteland, a woman rebels.",
+          "imageUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=450&fit=crop",
+          "type": "movie",
+          "duration": "2h",
+          "rating": 8.1,
+          "year": 2015,
+          "genres": ["Action", "Adventure", "Sci-Fi"]
+        },
+        {
+          "id": "item-12",
+          "title": "Vikings",
+          "description": "Vikings transports us to the brutal world of Ragnar Lothbrok.",
+          "imageUrl": "https://images.unsplash.com/photo-1549834125-82d3c48159a3?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1549834125-82d3c48159a3?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "6 Seasons",
+          "rating": 8.5,
+          "year": 2013,
+          "genres": ["Action", "Adventure", "Drama"]
+        },
+        {
+          "id": "item-13",
+          "title": "Avengers: Endgame",
+          "description": "After the devastating events, the Avengers assemble once more.",
+          "imageUrl": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1535016120720-40c646be5580?w=300&h=450&fit=crop",
+          "type": "movie",
+          "duration": "3h 1m",
+          "rating": 8.4,
+          "year": 2019,
+          "genres": ["Action", "Adventure", "Drama"]
+        }
+      ]
+    },
+    {
+      "id": "popular-1",
+      "title": "Popular on OTT",
+      "template": "vertical_grid",
+      "items": [
+        {
+          "id": "item-14",
+          "title": "The Office",
+          "imageUrl": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1497215842964-222b430dc094?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "9 Seasons",
+          "rating": 9.0,
+          "year": 2005,
+          "genres": ["Comedy"]
+        },
+        {
+          "id": "item-15",
+          "title": "Friends",
+          "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "10 Seasons",
+          "rating": 8.9,
+          "year": 1994,
+          "genres": ["Comedy", "Romance"]
+        },
+        {
+          "id": "item-16",
+          "title": "Game of Thrones",
+          "imageUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "8 Seasons",
+          "rating": 9.3,
+          "year": 2011,
+          "genres": ["Action", "Adventure", "Drama"]
+        },
+        {
+          "id": "item-17",
+          "title": "Sherlock",
+          "imageUrl": "https://images.unsplash.com/photo-1551847677-dc82d764e1eb?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1551847677-dc82d764e1eb?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "4 Seasons",
+          "rating": 9.1,
+          "year": 2010,
+          "genres": ["Crime", "Drama", "Mystery"]
+        },
+        {
+          "id": "item-18",
+          "title": "Black Mirror",
+          "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "5 Seasons",
+          "rating": 8.8,
+          "year": 2011,
+          "genres": ["Drama", "Sci-Fi", "Thriller"]
+        },
+        {
+          "id": "item-19",
+          "title": "Peaky Blinders",
+          "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=450&fit=crop",
+          "thumbnailUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=450&fit=crop",
+          "type": "series",
+          "duration": "6 Seasons",
+          "rating": 8.8,
+          "year": 2013,
+          "genres": ["Crime", "Drama"]
+        }
+      ]
+    }
+  ]
+}
