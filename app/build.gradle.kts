@@ -20,9 +20,43 @@ android {
         }
     }
 
+    flavorDimensions += "environment"
+    
+    productFlavors {
+        create("dev") {
+            dimension = "environment"
+            applicationIdSuffix = ".dev"
+            versionNameSuffix = "-dev"
+            buildConfigField("String", "BASE_URL", "\"https://dev-api.ottapp.com/\"")
+            buildConfigField("String", "ENVIRONMENT", "\"DEV\"")
+        }
+        
+        create("int") {
+            dimension = "environment"
+            applicationIdSuffix = ".int"
+            versionNameSuffix = "-int"
+            buildConfigField("String", "BASE_URL", "\"https://int-api.ottapp.com/\"")
+            buildConfigField("String", "ENVIRONMENT", "\"INT\"")
+        }
+        
+        create("prod") {
+            dimension = "environment"
+            buildConfigField("String", "BASE_URL", "\"https://api.ottapp.com/\"")
+            buildConfigField("String", "ENVIRONMENT", "\"PROD\"")
+        }
+    }
+
     buildTypes {
-        release {
+        debug {
+            isDebuggable = true
             isMinifyEnabled = false
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+        }
+        
+        release {
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -38,6 +72,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.4"
